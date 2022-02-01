@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{2ec38822-6808-4e0b-8c03-012d5ef29570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{fc051282-c0dc-4b0f-add4-ef8c9d9825af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\blueprint">
+      <UniqueIdentifier>{f7c83982-0af1-40f8-8cdc-589b530296a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\mesh">
+      <UniqueIdentifier>{8aadeee2-da48-486d-9fec-5909043af864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\uasset">
+      <UniqueIdentifier>{b0fc7c58-2710-4861-8ca1-8501b036eed5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BinaryUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshTool.cpp">
+      <Filter>Tools\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Uasset.cpp">
+      <Filter>Tools\uasset</Filter>
+    </ClCompile>
+    <ClCompile Include="Blueprint.cpp">
+      <Filter>Tools\blueprint</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BinaryUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Uasset.h">
+      <Filter>Tools\uasset</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshTool.h">
+      <Filter>Tools\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Blueprint.h">
+      <Filter>Tools\blueprint</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
